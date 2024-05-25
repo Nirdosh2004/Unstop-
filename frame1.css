@@ -39,6 +39,8 @@ html,body{
           display: flex;
           /* background-color: #fff; */
           margin: 1vw;
+          /* position: fixed; */
+          /* background-color: #67676d; */
           justify-content: space-between;
 }
 
@@ -144,7 +146,11 @@ html,body{
 
 .frame1 > .main{
           display: flex;
+          background: #E6E6FA;
           justify-content: space-around;
+          margin: 2vw;
+          padding: 1vw;
+          border-radius: 1vw;
 }
 
 .frame1 > .main > .text {
@@ -299,8 +305,11 @@ html,body{
         /* } */
 
 .frame2{
-          margin: 1vw;
+          margin: 2vw;
           border-top: 1px silver solid;
+          background: #B9D9EB;
+          border-radius: 1vw;
+          padding: 1vw;
 }
 
 .frame2 .company{
@@ -308,9 +317,161 @@ html,body{
           gap: 8vw;
           margin: 1vw;
           /* background-color: #d8e2dc;   */
+          border-bottom: 1px solid #007FFF;
+          padding: 2vw;
 }
 
 .frame2 .company img{
           height: 10vh;
           width: auto;
 }
+
+.frame2 .containers{
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  margin: 2vw;
+  margin-top: 20vh ;
+  
+}
+
+.frame2 .containers .cuet img{
+  border: 1px solid #007FFF;
+
+  border-radius: 1vw;
+  height: 30vh;
+  width: 35vw;
+}
+
+.frame2 .containers .coding img{
+  border: 1px solid #007FFF;
+
+  border-radius: 1vw;
+  height: 30vh;
+  width: 35vw;
+}
+
+.frame2 .containers .before{
+  border: 1px solid #212125;
+  text-align: center;
+  border-radius: 5vw;
+  padding: 1vw;
+  margin-top: 10vh;
+  margin-bottom: 30vh;
+  background-color: #ecece5;
+  font-weight: 600;
+
+}
+
+.frame2 .containers .before:hover{
+  background-color: #007FFF;
+  border: 1px solid #007FFF;
+  color: #f8f8f8;
+}
+
+.frame2 .containers .after{
+  border: 1px solid #212125;
+  text-align: center;
+  border-radius: 5vw;
+  padding: 1vw;
+  margin-top: 10vh;
+  margin-bottom: 30vh;
+  background-color: #ecece5;
+  font-weight: 600;
+
+}
+
+.frame2 .containers .after:hover{
+  background-color: #007FFF;
+  border: 1px solid #007FFF;
+  color: #f8f8f8;
+}
+
+.frame3{
+  margin: 2vw;
+  background: #f4a261;
+  padding: 2vw;
+  border-radius: 1vw;
+}
+
+.frame3 h1{
+  font-weight: 600;
+}
+
+.frame3 p{
+  opacity: 90%;
+}
+
+.frame3 .boxes{
+  display: flex;
+ 
+  margin: 2vw;
+  gap: 2vw;
+}
+
+.frame3 .boxes a{
+  display: flex;
+  
+  flex-direction: column;
+
+  /* align-items: center; */
+  border: #fff 1px solid;
+  gap: .5vw;
+  border-radius: 1vw;
+  padding: 1vw;
+  background: #F8F8FF;
+}
+
+.frame3 .boxes a img{
+  height: 20vh;
+  width: 15vw;
+  border-radius: 1vw;
+  text-align: center;
+  padding-left: 1vw;
+}
+
+.frame3 .boxes a h3{
+  font-weight: 600;
+  font-size: 1.1vw;
+  opacity: 90%;
+}
+
+.frame3 .boxes a h3:hover{
+  color: #007FFF;
+  text-decoration: underline;
+}
+
+.frame3 .boxes a p{
+  opacity: 80%;
+  font-size: .7vw;
+}
+
+.frame4{
+  margin: 2vw;
+  padding: 1vw;
+  border-radius: 1vw;
+}
+
+.frame4 a{
+  display: flex;
+  gap: 5vw;
+}
+
+.frame4 a img{
+  height: 70vh;
+  width: 30vw;
+}
+
+.frame4 a .text .first{
+  color: #212125;
+  font-weight: 550;
+  font-size: 3vw;
+  margin-bottom: -1vw;
+}
+
+.frame4 a .text .second{
+  color: #007FFF;
+  font-weight: 550;
+  font-size: 3vw;
+}
+
