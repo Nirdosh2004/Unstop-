@@ -611,3 +611,258 @@ padding: 2vw;
   background: #1164B4;
   border: 2px solid #1164B4;
 }
+
+.frame5{
+  margin: 2vw;
+  padding: 2vw;
+  height: 80vh;
+  border-radius: 1vw;
+  background: hsla(20, 89%, 89%, 1);
+
+background: linear-gradient(90deg, hsla(20, 89%, 89%, 1) 0%, hsla(324, 57%, 77%, 1) 50%, hsla(278, 54%, 81%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(20, 89%, 89%, 1) 0%, hsla(324, 57%, 77%, 1) 50%, hsla(278, 54%, 81%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(20, 89%, 89%, 1) 0%, hsla(324, 57%, 77%, 1) 50%, hsla(278, 54%, 81%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FCDBCA", endColorstr="#E6A5CC", GradientType=1 );
+}
+
+.frame5 .heading{
+  display: flex;
+  justify-content: space-between;
+}
+
+.frame5 .heading .one h1{
+  font-size: 2vw;
+  font-weight: 550;
+}
+
+.frame5 .heading .one p{
+  font-size: 1vw;
+  font-weight: 400;
+  /* opacity: 90%; */
+}
+
+.frame5 .heading .two a img{
+  height: 3vh;
+  width: auto;
+  margin-top: 2vh;
+  /* margin-left: .5vw; */
+  color: #ec7c21;
+}
+
+.frame5 .heading .two a {
+  border: 1px solid #212121;
+  /* color: #ec7c21; */
+  padding: .7vw;
+  border-radius: 1vw;
+}
+
+.frame5 .heading .two a:hover{
+  background: #ec7c21;
+  border: 2px solid #ec7c21;
+  color: #f8f8f8;
+}
+
+.frame5 .box{
+  display: flex;
+  margin-top: 30vh;
+  justify-content: center;
+  gap: .6vw;
+}
+
+
+.frame5 .box .one a:hover{
+  padding: 11vw;
+  font-size: 1.3vw;
+}
+.frame5 .box .one a{
+  border: 1px solid #099773;
+  padding: 10vw;
+  border-radius: 1vw;
+  font-size: 1vw;
+  font-weight: 700;
+  /* color: #f8f8f8; */
+  background: hsla(165, 89%, 31%, 1);
+
+background: linear-gradient(90deg, hsla(165, 89%, 31%, 1) 0%, hsla(161, 46%, 49%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(165, 89%, 31%, 1) 0%, hsla(161, 46%, 49%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(165, 89%, 31%, 1) 0%, hsla(161, 46%, 49%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#099773", endColorstr="#43B692", GradientType=1 );
+}
+
+
+
+
+
+.frame5 .box .two a{
+  /* border: 1px solid #212121; */
+  padding: 10vw 2vw;
+  border-radius: 1vw;
+  font-size: 1vw;
+  font-weight: 700;
+}
+
+.frame5 .box .two .one{
+  /* border: #D45F97 solid 1px; */
+  background: hsla(69, 80%, 76%, 1);
+
+background: linear-gradient(90deg, hsla(69, 80%, 76%, 1) 0%, hsla(23, 68%, 67%, 1) 50%, hsla(331, 58%, 60%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(69, 80%, 76%, 1) 0%, hsla(23, 68%, 67%, 1) 50%, hsla(331, 58%, 60%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(69, 80%, 76%, 1) 0%, hsla(23, 68%, 67%, 1) 50%, hsla(331, 58%, 60%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E5F392", endColorstr="#E49E71", GradientType=1 );
+}
+
+.frame5 .box .two .two{
+  background: hsla(160, 50%, 51%, 1);
+
+background: linear-gradient(90deg, hsla(160, 50%, 51%, 1) 0%, hsla(247, 60%, 21%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(160, 50%, 51%, 1) 0%, hsla(247, 60%, 21%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(160, 50%, 51%, 1) 0%, hsla(247, 60%, 21%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#43C197", endColorstr="#1C1554", GradientType=1 );
+/* border: 1px solid #348756; */
+}
+
+.frame5 .box .two .one:hover{
+  padding: 12vw 2vw ;
+  font-size: 1.3vw;
+}
+
+.frame5 .box .two .two:hover{
+  padding: 12vw 2vw ;
+  font-size: 1.3vw;
+}
+
+.frame5 .box .two .three:hover{
+  padding: 12vw 2vw ;
+  font-size: 1.3vw;
+}
+
+.frame5 .box .two .three{
+  /* border: 1px solid #5EDEEF; */
+  background: hsla(187, 82%, 65%, 1);
+
+background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5EDEEF", endColorstr="#DCE956", GradientType=1 );
+}
+
+.frame6{
+  margin: 2vw;
+  padding: 2vw;
+  border-radius: 1vw;
+  background: hsla(139, 70%, 75%, 1);
+
+background: linear-gradient(90deg, hsla(139, 70%, 75%, 1) 0%, hsla(63, 90%, 76%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(139, 70%, 75%, 1) 0%, hsla(63, 90%, 76%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(139, 70%, 75%, 1) 0%, hsla(63, 90%, 76%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#95ECB0", endColorstr="#F3F98A", GradientType=1 );
+}
+
+
+.frame6 .heading{
+  display: flex;
+  justify-content: space-between;
+}
+
+.frame6 .heading .one h1{
+  font-size: 2vw;
+  font-weight: 550;
+}
+
+.frame6 .heading .one p{
+  font-size: 1vw;
+  font-weight: 400;
+  /* opacity: 90%; */
+}
+
+.frame6 .heading .two a img{
+  height: 3vh;
+  width: auto;
+  margin-top: 2vh;
+  /* margin-left: .5vw; */
+  color: #ec7c21;
+}
+
+.frame6 .heading .two a {
+  border: 1px solid #212121;
+  /* color: #ec7c21; */
+  padding: .7vw;
+  border-radius: 1vw;
+}
+
+.frame6 .heading .two a:hover{
+  background: #ec7c21;
+  border: 2px solid #ec7c21;
+  color: #f8f8f8;
+}
+
+.frame6 .btn{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6vh;
+}
+
+.frame6 .btn .one img{
+  height: 3vh;
+  width: auto;
+  margin-right: .7vw;
+  /* margin-top: 1vw; */
+}
+
+.frame6 .btn .one{
+  border: 1px solid #007FFF;
+  background: #007FFF;
+  color: #f8f8f8;
+  padding: .8vw;
+  border-radius: 2vw;
+  font-weight: 500;
+}
+
+.frame6 .btn .one:hover{
+  background-color: #1164B4;
+  padding: .9vw;
+}
+
+.frame6 .btn .two{
+  border: 1px solid #007FFF;
+  background: #007FFF;
+  color: #f8f8f8;
+  padding: .8vw;
+  border-radius: 2vw;
+  font-weight: 500;
+}
+
+.frame6 .btn .two:hover{
+  background-color: #1164B4;
+  padding: .9vw;
+}
+
+.frame6 .banner{
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.frame6 .banner img{
+  width: 90vw;
+  height: 50vh;
+   border-radius: 1vw;
+}
